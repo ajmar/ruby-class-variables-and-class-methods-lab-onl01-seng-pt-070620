@@ -20,7 +20,7 @@ def self.count
 end
 
 def self.artists
-  @@artists && @@artists
+  return (@@artists && @@artists)
 end
 
 
