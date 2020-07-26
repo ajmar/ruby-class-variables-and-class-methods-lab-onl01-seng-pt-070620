@@ -16,7 +16,7 @@ end
 
 
 def self.count
-  return @@count
+  @@count
 end
 
 
